@@ -44,7 +44,7 @@
 				<section>
 					<h2>NodeJS Development and Hardware Interfacing on Raspberry Pi</h2>
 				</section>
-				
+
 				<!-- 2. Is there some convergence ? Hopefully -->
 				<section>
 					<h2>About Me</h2>
@@ -54,7 +54,7 @@
 						<li class="fragment">Interested in Software Development and Instrumentation</li>
 					</ul>
 				</section>
-				
+
 				<!-- 3. The surrounding stuff ?? Can we do better than this ? -->
 				<section>
 					<h2>What this talk is about</h2>
@@ -64,55 +64,68 @@
 						<li class="fragment">The surrounding stuff</li>
 					</ul>
 				</section>
-				
+
 				<!-- 4. Try to answer why Raspberry Pi is a good choice for lot of applications -->
-				<section>
+				<section data-background="#dddddd" data-background-transition="zoom">
 					<h2>Raspberry Pi</h2>
-					<img src="images/Raspberry_Pi_B+_top.jpg" alt="Raspberry Pi - Top View" >
+					<img class="fragment" src="images/Raspberry_Pi_B+_top.jpg" alt="Raspberry Pi - Top View" >
 					<!-- Key Specs and image, show visually -->
 				</section>
-				
-				<!-- 5. -->
+
 				<section>
 					<h2>Raspberry Pi</h2>
-					<!-- Year and revisions, highlighting performance changes -->
+					<img src="images/raspberry_pi2_details.png" alt="Raspberry Pi - Details" width="60%" >
+					<p><a href="https://en.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi Wikipedia</a></p>
+					<p><a href="https://en.wikipedia.org/wiki/Comparison_of_single-board_computers">Comparison of Single Board Computers</a></p>
+					<!-- Key Specs and image, show visually -->
 				</section>
-				
+
+
+
 				<!-- 6. Tell the brief history of NodeJS on Raspberry Pi -->
 				<section>
 					<h2>NodeJS Development Options</h2>
 					<ul>
 						<li class="fragment">Local</li>
+						<ul>
+							<li class="fragment">Emacs/Vi/Nano</li>
+							<li class="fragment">Raspberry Pi</li>
+						</ul>
 						<li class="fragment">Remote</li>
+						<ul>
+							<li class="fragment">Raspberry Pi</li>
+							<li class="fragment">Netbeans for C, C++, Java <a href="http://www.raspberry-projects.com/pi/programming-in-c/compilers-and-ides/netbeans-windows/installing-netbeans-for-c-remote-development-on-a-raspberry-pi">Read more</a></li>
+						</ul>
 					</ul>
 				</section>
-				
+
 				<!-- 7. Introduce Cloud 9, show website/from Raspberry Pi -->
 				<section>
 					<h2>Cloud9 and SDK</h2>
-					<!-- Install on Raspi Steps -->	
+					<h3><a href="https://c9.io/">c9.io</a></h3>
+					<!-- Install on Raspi Steps -->
 				</section>
-				
+
 				<!-- 7.1 Show a humidity + temp sensor demo updating live in browser -->
 				<section>
 					<h2> Live Demo </h2>
 					<h3>Temperature + Humidity Sensor</h3>
 				</section>
-                                
+
 				<!-- 8. Why Raspberry Pi-->
 				<section>
 					<h2>The Surrounding Stuff ?</h1>
 					<ul>
 						<li class="fragment">Things - IoT </li>
-						
+
 					</ul>
 				</section>
-				
+
 				<section>
 					<h3>Internet of <b>Things</b></h3>
 					<img src="images/iot.jpg" alt="internet of things" >
 				</section>
-				
+
 				<section>
 					<h2>The Surrounding Stuff ?</h2>
 					<ul>
@@ -120,27 +133,27 @@
 						<li class="fragment">Building Info Modeling - BIM</li>
 					</ul>
 				</section>
-				
+
 				<section>
 					<h3>Building <b>information</b> Modeling</h3>
 					<img src="images/bim.jpg" alt="building information modeling">
 				</section>
-				
+
 				<section>
 					<h3><b>Parametric</b> Design</h3>
 					<img src="images/parametric_design1.jpg" alt="parametric design">
 				</section>
-				
+
 				<section>
 					<h3>Bird's Nest - Beijing</h3>
 					<img src="images/birds_nest.jpg" alt="Bird's Nest - Beijing">
 				</section>
-				
+
 				<section>
 					<h3>EMP - Seattle</h3>
 					<img src="images/emp.jpg" alt="Experience Music Project">
 				</section>
-				
+
 				<section>
 					<h2>The Surrounding Stuff ?</h2>
 					<ul>
@@ -149,22 +162,24 @@
 						<li class='fragment'>Geographic Info Systems - GIS</li>
 					</ul>
 				</section>
-				
+
 				<section>
 					<h3>Geographical <b>Information</b> Systems</h3>
 					<img src="images/gis.jpg" alt="Geographical Information Systems" >
 				</section>
-				
+
 				<!-- 9. About the Lab -->
 				<section>
 					<h2>MAPLE Lab - UW</h2>
+					<p><a href="http://depts.washington.edu/maple/">http://depts.washington.edu/maple/</a></p>
 					<ul>
 						<li class="fragment">Multi-scale problems</li>
 						<li class="fragment">Multi-physics problems</li>
 						<li class="fragment">Stiff and Intractable</li>
 					</ul>
+
 				</section>
-				
+
 				<!-- 10. Current Focus -->
 				<section>
 					<h2>Li-ion Battery Models</h2>
@@ -174,18 +189,18 @@
 						<li class="fragment">Upto 50% more life/faster charging</li>
 					</ul>
 				</section>
-                                
+
 				<!-- The Optimal charging strategy implementation - maybe show a diagram-->
 				<section>
 					<h2>Advanced Battery Management System</h2>
 					<img src="images/bms.png" alt="Battery Management System - Overview" style='background-color: white'>
 				</section>
-				
+
 				<!-- 11. Contact info -->
 				<section>
 					<p><b>Email: chintan.pathak@gmail.com</b></p>
 					<img src="images/qrcode.png" alt="qrcode" width='50%'/>
-					
+
 				</section>
 			</div>
 
@@ -204,7 +219,7 @@
 				history: true,
 				center: true,
 
-				transition: 'slide', // none/fade/slide/convex/concave/zoom
+				transition: 'convex', // none/fade/slide/convex/concave/zoom
 
 				// Optional reveal.js plugins
 				dependencies: [
