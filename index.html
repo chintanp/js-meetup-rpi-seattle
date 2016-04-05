@@ -41,22 +41,24 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<!-- 1. Just hi and Hello, maybe some nice joke -->
-				<section>
+				<section data-transition="slide">
 					<h2>NodeJS Development and Hardware Interfacing on Raspberry Pi</h2>
 				</section>
 
 				<!-- 2. Is there some convergence ? Hopefully -->
-				<section>
+				<section data-transition="slide">
 					<h2>About Me</h2>
 					<ul>
 						<li class="fragment">Civil & Structural Engineer</li>
-						<li class="fragment">Researcher</li>
-						<li class="fragment">Interested in Software Development and Instrumentation</li>
+						<ul> 
+							<li class="fragment">Consultant & Trainer</li>
+						</ul>
+						<li class="fragment">+ Computer Engineering and Instrumentation</li>
 					</ul>
 				</section>
 
 				<!-- 3. The surrounding stuff ?? Can we do better than this ? -->
-				<section>
+				<section data-transition="slide">
 					<h2>What this talk is about</h2>
 					<ul>
 						<li class="fragment">Introduction to Raspberry Pi</li>
@@ -75,8 +77,8 @@
 				<section>
 					<h2>Raspberry Pi</h2>
 					<img src="images/raspberry_pi2_details.png" alt="Raspberry Pi - Details" width="60%" >
-					<p><a href="https://en.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi Wikipedia</a></p>
-					<p><a href="https://en.wikipedia.org/wiki/Comparison_of_single-board_computers">Comparison of Single Board Computers</a></p>
+					<p><a target="_blank" href="https://en.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi Wikipedia</a></p>
+					<p><a target="_blank" href="https://en.wikipedia.org/wiki/Comparison_of_single-board_computers">Comparison of Single Board Computers</a></p>
 					<!-- Key Specs and image, show visually -->
 				</section>
 
@@ -89,12 +91,12 @@
 						<li class="fragment">Local</li>
 						<ul>
 							<li class="fragment">Emacs/Vi/Nano</li>
-							<li class="fragment">Raspberry Pi</li>
+							<li class="fragment">Cloud 9</li>
 						</ul>
 						<li class="fragment">Remote</li>
 						<ul>
-							<li class="fragment">Raspberry Pi</li>
-							<li class="fragment">Netbeans for C, C++, Java <a href="http://www.raspberry-projects.com/pi/programming-in-c/compilers-and-ides/netbeans-windows/installing-netbeans-for-c-remote-development-on-a-raspberry-pi">Read more</a></li>
+							<li class="fragment">Cloud 9</li>
+							<li class="fragment">Netbeans for C, C++, Java <a target="_blank" href="http://www.raspberry-projects.com/pi/programming-in-c/compilers-and-ides/netbeans-windows/installing-netbeans-for-c-remote-development-on-a-raspberry-pi">Read more</a></li>
 						</ul>
 					</ul>
 				</section>
@@ -102,7 +104,8 @@
 				<!-- 7. Introduce Cloud 9, show website/from Raspberry Pi -->
 				<section>
 					<h2>Cloud9 and SDK</h2>
-					<h3><a href="https://c9.io/">c9.io</a></h3>
+					<h3><a href="https://c9.io/" target="_blank">c9.io</a></h3>
+					<h3><a href="https://github.com/c9/core" target="_blank">Cloud9 Core</a></h3>
 					<!-- Install on Raspi Steps -->
 				</section>
 
@@ -110,6 +113,9 @@
 				<section>
 					<h2> Live Demo </h2>
 					<h3>Temperature + Humidity Sensor</h3>
+					<p><a href="https://github.com/chintanp/dht11-nodejs">Code for demo on Github</a></p>
+					<p><a href="https://www.google.com/search?q=dht-11+raspberry+pi&espv=2&biw=1280&bih=855&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiJ6uPbl_jLAhUN4mMKHYMFCysQ_AUICCgD#imgrc=ZgzO2PPc6v-w9M%3A">DHT-11 Raspberry Connection</a> </p>
+					<p><a href="https://www.google.com/search?q=raspberry+pi+pinout&espv=2&biw=1280&bih=855&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiyyJfGkfjLAhVH-2MKHYb2DUkQ_AUIBigB#q=raspberry+pi+pinout&tbm=isch&tbas=0">Raspberry Pi Pinout</a></p>
 				</section>
 
 				<!-- 8. Why Raspberry Pi-->
@@ -121,12 +127,12 @@
 					</ul>
 				</section>
 
-				<section>
+				<section data-transition="slide">
 					<h3>Internet of <b>Things</b></h3>
-					<img src="images/iot.jpg" alt="internet of things" >
+					<img class="stretch" src="images/iot.jpg" alt="internet of things" >
 				</section>
 
-				<section>
+				<section data-transition="slide">
 					<h2>The Surrounding Stuff ?</h2>
 					<ul>
 						<li style="color: #42affa">Things - IoT </li>
@@ -134,27 +140,27 @@
 					</ul>
 				</section>
 
-				<section>
+				<section data-transition="slide"> 
 					<h3>Building <b>information</b> Modeling</h3>
-					<img src="images/bim.jpg" alt="building information modeling">
+					<img class="stretch" src="images/bim.jpg" alt="building information modeling">
 				</section>
 
-				<section>
+				<section data-transition="slide">
 					<h3><b>Parametric</b> Design</h3>
-					<img src="images/parametric_design1.jpg" alt="parametric design">
+					<img class="stretch" src="images/parametric_design1.jpg" alt="parametric design">
 				</section>
 
-				<section>
+				<section data-transition="slide">
 					<h3>Bird's Nest - Beijing</h3>
-					<img src="images/birds_nest.jpg" alt="Bird's Nest - Beijing">
+					<img class="stretch" src="images/birds_nest.jpg" alt="Bird's Nest - Beijing">
 				</section>
 
-				<section>
+				<section data-transition="slide">
 					<h3>EMP - Seattle</h3>
-					<img src="images/emp.jpg" alt="Experience Music Project">
+					<img class="stretch" src="images/emp.jpg" alt="Experience Music Project">
 				</section>
 
-				<section>
+				<section data-transition="slide">
 					<h2>The Surrounding Stuff ?</h2>
 					<ul>
 						<li style="color: #42affa">Things - IoT </li>
@@ -163,15 +169,21 @@
 					</ul>
 				</section>
 
-				<section>
+				<section data-transition="slide">
 					<h3>Geographical <b>Information</b> Systems</h3>
-					<img src="images/gis.jpg" alt="Geographical Information Systems" >
+					<img class="stretch" src="images/gis.jpg" alt="Geographical Information Systems" >
 				</section>
-
+				
+				<section data-transition="slide">
+					<h3>Real-Time GIS</h3>
+					<img class="stretch" style='background-color: white' src="images/real_time_GIS.png" alt="Geographical Information Systems" >
+				</section>
+				
 				<!-- 9. About the Lab -->
-				<section>
+				<section data-transition="slide">
 					<h2>MAPLE Lab - UW</h2>
-					<p><a href="http://depts.washington.edu/maple/">http://depts.washington.edu/maple/</a></p>
+					<p><a href="http://depts.washington.edu/maple/" target="_blank">http://depts.washington.edu/maple/</a></p>
+					<p>PI: Prof. Venkat Subramanian</p>
 					<ul>
 						<li class="fragment">Multi-scale problems</li>
 						<li class="fragment">Multi-physics problems</li>
@@ -181,25 +193,33 @@
 				</section>
 
 				<!-- 10. Current Focus -->
-				<section>
+				<section data-transition="slide">
 					<h2>Li-ion Battery Models</h2>
 					<ul>
 						<li class="fragment">Physics-based</li>
 						<li class="fragment">Fast Solvers</li>
-						<li class="fragment">Upto 50% more life/faster charging</li>
+						<li class="fragment">20-50% more life/faster charging</li>
 					</ul>
 				</section>
 
 				<!-- The Optimal charging strategy implementation - maybe show a diagram-->
-				<section>
-					<h2>Advanced Battery Management System</h2>
+				<section data-transition="slide">
+					<h3>Advanced Battery Management System</h3>
+					<p><a href="http://batteryinformatics.com/" target="_blank">Battery Informatics Inc.</a></p>
 					<img src="images/bms.png" alt="Battery Management System - Overview" style='background-color: white'>
+				</section>
+				
+				<section data-transition="slide">
+					<h3>Prototype</h3>
+					<p><a href="http://batteryinformatics.com/" target="_blank">Battery Informatics Inc.</a></p>
+					<img src="images/single_cell_BMS.jpg" alt="Battery Management System - Overview" style='background-color: white'>
 				</section>
 
 				<!-- 11. Contact info -->
 				<section>
+					<h1>Thank You!</h1>
+					<img src="images/qrcode.png" alt="qrcode" width='30%'/>
 					<p><b>Email: chintan.pathak@gmail.com</b></p>
-					<img src="images/qrcode.png" alt="qrcode" width='50%'/>
 
 				</section>
 			</div>
